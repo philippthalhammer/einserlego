@@ -1,0 +1,21 @@
+<! DOCTYPE html> ‹html lang="en">
+<head>
+‹meta
+charset="utf-8">
+<meta
+http-equiv="X-UA-Compatible" content="IE=edge"›
+‹meta name="viewport" content="width=device-width, initial-scale=1"› ‹script src="https://aframe.io/releases/1.0.0/aframe.min.js">/script> ‹script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.j
+‹title›AR Text</title>
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+ <body>
+     <a-scene>
+     	<a-marker preset="hiro">
+        	<a-text value="Hello, World!"></a-text>
+      	</a-marker>
+    	<a-entity camera></a-entity>
+    </a-scene>
+ </body>
+
+</ html>
